@@ -1,12 +1,12 @@
-package model;
+package com.example.cartonlinestore.model;
 
-public class product {
+public class Product {
     private final int id;
     private int counter;
     private final int price;
     private final String nameProduct;
 
-    public product(int price, String nameProduct) {
+    public Product(String nameProduct, int price) {
         this.nameProduct = nameProduct;
         this.price = price;
         this.id = counter++;
